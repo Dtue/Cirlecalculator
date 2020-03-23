@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>圆计算器</title>
+</head>
+<body>
+    <button type="submit" onclick="useR()">用半径算</button>
+    <button type="submit" onclick="useD()">用直径算</button>
+    <button type="submit" onclick="useC()">用周长算</button>
+    <button type="submit" onclick="useS()">用面积算</button>
+    <div>
+        <p id="03">半径：<a id="r" style="color: red;">未定义</a></p>
+        <p id="04">直径：<a id="d" style="color: red;">未定义</a></p>
+        <p id="05">周长：<a id="c" style="color: red;">未定义</a></p>
+        <p id="06">面积：<a id="s" style="color: red;">未定义</a></p>
+    </div>
+    <script>
+        var p = 3.14;
+        function useR (){
+            var r = prompt("请输入半径：");
+            var d = 2 * r;
+            var c = p * d;
+            var s = r * r * p;
+            document.getElementById("r").innerHTML = r;
+            document.getElementById("d").innerHTML = d;
+            document.getElementById("c").innerHTML = c;
+            document.getElementById("s").innerHTML = s;
+        };
+        function useD (){
+            var d = prompt("请输入直径：");
+            var r = d / 2;
+            var c = p * d;
+            var s = r * r * p;
+            document.getElementById("r").innerHTML = r;
+            document.getElementById("d").innerHTML = d;
+            document.getElementById("c").innerHTML = c;
+            document.getElementById("s").innerHTML = s;
+        };
+        function useC (){
+            var c = prompt("请输入周长：");
+            var d = c / p;
+            var r = d / 2;
+            var s = r * r * p;
+            document.getElementById("r").innerHTML = r;
+            document.getElementById("d").innerHTML = d;
+            document.getElementById("c").innerHTML = c;
+            document.getElementById("s").innerHTML = s;
+        };
+        function useS (){
+            var s = prompt("请输入面积：");
+            var r = Math.sqrt(s / p);
+            var d = 2 * r;
+            var c = p * d;
+            document.getElementById("r").innerHTML = r;
+            document.getElementById("d").innerHTML = d;
+            document.getElementById("c").innerHTML = c;
+            document.getElementById("s").innerHTML = s;
+        };
+    </script>
+</body>
+</html>
