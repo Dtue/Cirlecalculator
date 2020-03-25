@@ -2,7 +2,7 @@
 
 A calculator for circles.
 
-切换语言：[简体中文](README.md) [繁體中文](README-zh-tw.md) English
+Switch languages：[简体中文](README.md) [繁體中文](README-zh-tw.md) English
 
 > Developer: 柏衡Dtue（BohengDtue）
 >
