@@ -1,8 +1,8 @@
-# 圆之 Cirlecalculator
+# 圆之 圓之 Cirlecalculator
 
-一个圆的计算器 A calculator for circles.
+一个圆的计算器 一個圓的計算器 A calculator for circles.
 
-切换语言：简体中文、繁体中文
+切换语言：简体中文 [繁體中文](README-zh-tw.md) [English](README-en.md)
 
 > 作者：柏衡Dtue
 > 
